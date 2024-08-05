@@ -10,3 +10,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      # Ignore caddy module as this is upgraded manually as required
+      - dependency-name: "github.com/caddyserver/caddy/v2"
