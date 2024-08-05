@@ -45,3 +45,5 @@ tls {
         }
 }
 ```
+
+For more information on the configuration, see [libdns/he](https://github.com/libdns/he).

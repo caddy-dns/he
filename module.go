@@ -6,7 +6,7 @@ import (
 	libdnshe "github.com/libdns/he"
 )
 
-// Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
+// Provider lets Caddy read and manipulate DNS records hosted by Hurricane Electric.
 type Provider struct{ *libdnshe.Provider }
 
 func init() {
