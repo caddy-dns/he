@@ -1,10 +1,10 @@
 module github.com/caddy-dns/he
 
-go 1.24
+go 1.25.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/he v1.2.1
+	github.com/libdns/he v1.2.2
 )
 
 require (
@@ -21,7 +21,6 @@ require (
 	github.com/mholt/acmez/v3 v3.1.2 // indirect
 	github.com/miekg/dns v1.1.63 // indirect
 	github.com/onsi/ginkgo/v2 v2.13.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.48.0 // indirect
@@ -41,7 +40,7 @@ require (
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
-	golang.org/x/time v0.12.0 // indirect
+	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.31.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 )
